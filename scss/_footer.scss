@@ -1,0 +1,117 @@
+.footer {
+    background-color: #191919;
+
+    .footer_box {
+        padding-top: 50px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .footer_logo {
+            width: 24%;
+
+        }
+
+        .footer_menyu {
+            width: 24%;
+
+            .menyu_box {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+
+
+                .menyu_text {
+                   
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17.15px;
+                    color: #FFFFFF;
+                    font-family: sans-serif;
+                }
+            }
+
+            .menyu_p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                color: #ffffffb3;
+                font-family: sans-serif;
+            }
+        }
+
+        .footer_links {
+            width: 24%;
+            display: flex;
+            flex-direction: column;
+
+            .links_box {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+
+ 
+
+                .links_text {
+                    
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17.15px;
+                    color: #FFFFFF;
+                    font-family: sans-serif;
+                }
+            }
+
+            .links_icons {
+                display: flex;
+                gap: 25px;
+            }
+        }
+
+        .footer_obuna {
+            width: 25%;
+
+            .footer_obuna_text {
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                text-align: left;
+                color: #b0b0b0;
+                margin-bottom: 20px;
+            }
+
+            .footer_obuna_btn {
+                width: 136px;
+                height: 56px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                background-color: #FFFFFF;
+                padding: 10px;
+                border: none;
+                border-radius: 500px;
+
+                .btn_text {
+                  font-family: sans-serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #0D1017;
+                }
+
+                .btn_img {
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
+    }
+}

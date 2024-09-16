@@ -1,0 +1,436 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__top nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top nav .nav__img {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.header__top nav .nav__img img {
+  width: 180px;
+}
+.header__top nav .contakt {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header__top nav .contakt b {
+  font-size: 14px;
+  font-weight: 400;
+}
+.header__top nav .contakt img {
+  width: 20px;
+  height: 20px;
+}
+.header__top nav .contakt .flag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__top nav .contakt .flag img {
+  width: 10px;
+  height: 10px;
+}
+
+header {
+  padding: 8px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header nav ul img {
+  margin-top: 10px;
+}
+header nav ul li {
+  margin-top: 12px;
+}
+header nav ul li a {
+  color: black;
+  transition: all 0.3s;
+}
+header nav ul li a:hover {
+  color: rgb(73, 186, 243);
+}
+header nav ul button {
+  padding: 15px 25px;
+  background-color: #ce2525;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 100;
+}
+header nav ul button:hover {
+  background-color: coral;
+  color: white;
+}
+
+.bg__img {
+  background-image: url("../images/Rectangle 300.png");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.compania {
+  padding: 100px;
+}
+.compania .compania__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.compania .compania__wrapper .wrapper_left .akfa {
+  max-width: 470px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.compania .compania__wrapper .wrapper_left .left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.compania .compania__wrapper .wrapper_left .left p {
+  font-size: 22px;
+  font-weight: 200;
+  color: #3d3d3d;
+}
+.compania .compania__wrapper .wrapper__right img {
+  width: 650px;
+  position: relative;
+}
+.compania .compania__wrapper .wrapper__right .img2 {
+  position: absolute;
+  right: 130px;
+  width: 730px;
+  top: 480px;
+}
+
+.lorem {
+  padding: 50px;
+}
+.lorem .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.lorem .wrapper .card {
+  width: 270px;
+  height: 300px;
+  background-color: #E53524;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.lorem .wrapper .card h1 {
+  font-size: 146px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: white;
+}
+.lorem .wrapper .card h4 {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  margin-left: 70px;
+}
+
+.compania2 {
+  padding: 100px;
+}
+.compania2 .compania__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.compania2 .compania__wrapper .wrapper_left .akfa {
+  max-width: 470px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.compania2 .compania__wrapper .wrapper_left .left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.compania2 .compania__wrapper .wrapper_left .left p {
+  font-size: 22px;
+  font-weight: 200;
+  color: #3d3d3d;
+}
+.compania2 .compania__wrapper .wrapper__right img {
+  width: 650px;
+  position: relative;
+}
+.compania2 .compania__wrapper .wrapper__right .img2 {
+  position: absolute;
+  right: 130px;
+  width: 730px;
+  top: 480px;
+}
+
+.abautme {
+  background-image: url("../images/Rectangle 2 (1).png");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.abautme .abaut__wrapper h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.abautme .abaut__wrapper p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.abautme .abaut__wrapper .left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.abautme .abaut__wrapper .left p {
+  font-size: 20px;
+  font-weight: 200;
+  color: #ffffff;
+  margin-top: 300px;
+}
+.abautme .abaut__wrapper .left img {
+  margin-top: 300px;
+}
+
+.abaut {
+  padding: 50px;
+}
+.abaut .abaut__wrapper h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(66, 65, 65);
+}
+.abaut .abaut__wrapper h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.abaut .abaut__page {
+  display: flex;
+  justify-content: space-between;
+}
+.abaut .abaut__page .left {
+  margin-top: 50px;
+}
+.abaut .abaut__page .left img {
+  width: 600px;
+  height: 400px;
+}
+.abaut .abaut__page .wrapper__right {
+  margin-top: 90px;
+}
+.abaut .abaut__page .wrapper__right h4 {
+  max-width: 600px;
+  font-size: 31px;
+  font-weight: 300;
+}
+.abaut .card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.abaut .card .card__img img {
+  width: 300px;
+  height: 300px;
+}
+
+.logo__item {
+  padding: 50px;
+}
+.logo__item img {
+  width: 1300px;
+}
+
+.admin {
+  padding: 50px;
+}
+.admin .admi__wrapper h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.admin .admi__wrapper p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.admin .card__item {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.admin .card__item .card {
+  width: 500px;
+  height: 50px;
+  border: 1px solid rgb(65, 65, 65);
+}
+.admin .card__item .card p {
+  padding: 14px;
+  color: rgb(89, 89, 89);
+}
+.admin .card__input {
+  margin-left: 105px;
+  margin-top: 50px;
+  width: 1050px;
+  height: 250px;
+  border: 1px solid black;
+}
+.admin .button button {
+  padding: 15px 45px;
+  background-color: #ce2525;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  margin-left: 550px;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 100;
+}
+.admin .button button:hover {
+  background-color: coral;
+  color: white;
+}
+
+.footer {
+  background-color: #191919;
+}
+.footer .footer_box {
+  padding-top: 50px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer .footer_box .footer_logo {
+  width: 24%;
+}
+.footer .footer_box .footer_menyu {
+  width: 24%;
+}
+.footer .footer_box .footer_menyu .menyu_box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.footer .footer_box .footer_menyu .menyu_box .menyu_text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.15px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+.footer .footer_box .footer_menyu .menyu_p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.7019607843);
+  font-family: sans-serif;
+}
+.footer .footer_box .footer_links {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer_box .footer_links .links_box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.footer .footer_box .footer_links .links_box .links_text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.15px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+.footer .footer_box .footer_links .links_icons {
+  display: flex;
+  gap: 25px;
+}
+.footer .footer_box .footer_obuna {
+  width: 25%;
+}
+.footer .footer_box .footer_obuna .footer_obuna_text {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+.footer .footer_box .footer_obuna .footer_obuna_btn {
+  width: 136px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 500px;
+}
+.footer .footer_box .footer_obuna .footer_obuna_btn .btn_text {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #0D1017;
+}
+.footer .footer_box .footer_obuna .footer_obuna_btn .btn_img {
+  width: 12px;
+  height: 12px;
+}/*# sourceMappingURL=main.css.map */

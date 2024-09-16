@@ -1,0 +1,44 @@
+.compania2{
+    padding: 100px;
+    .compania__wrapper{
+        display: flex;
+        justify-content: space-between;
+        .wrapper_left{
+
+
+            .akfa{
+                max-width: 470px;
+                font-size: 20px;
+                font-weight: 300;
+                margin-top: 40px;
+            }
+
+
+            .left{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                p{
+                    font-size: 22px ;
+                    font-weight: 200;
+                    color: #3d3d3d;
+                }
+            }
+        }
+
+        .wrapper__right{
+
+            img{
+                width: 650px;
+                position: relative;
+            }
+            .img2{
+                position: absolute;
+                right: 130px;
+                width: 730px;
+                top: 480px;
+
+            }
+        }
+    }
+}

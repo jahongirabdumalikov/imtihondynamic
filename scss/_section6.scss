@@ -1,0 +1,60 @@
+.abaut {
+    padding: 50px;
+
+    .abaut__wrapper {
+        h4 {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            font-size: 24px;
+            font-weight: 400;
+            color: rgb(66, 65, 65);
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 46px;
+            font-weight: 600;
+            margin-top: 50px;
+        }
+    }
+
+    .abaut__page {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            margin-top: 50px;
+
+            img {
+                width: 600px;
+                height: 400px;
+            }
+        }
+
+        .wrapper__right {
+            margin-top: 90px;
+
+            h4 {
+                max-width: 600px;
+                font-size: 31px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .card__img {
+            img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}
